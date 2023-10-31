@@ -1,0 +1,22 @@
+.body-container {
+    padding: 1.875rem;
+}
+
+
+.body-container h1:first-child,
+.body-container p:first-child {
+    margin-top: 0;
+}
+.body-container p:last-child,
+.body-container li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ~~~~~ Utilities ~~~~~ */
+.mb0 {
+    margin-bottom: 0;
+}
+.mt0 {
+    margin-top: 0;
+}
