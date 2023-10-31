@@ -12,6 +12,40 @@ body {
     #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
     #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb
     );
+    background-image: linear-gradient(180deg, 
+    #75afb7, 
+    #9bc7ce, #afd3d9, #bedbe0, 
+    #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, 
+    #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, 
+    #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, 
+    #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, 
+    #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, 
+    #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, 
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb
+    );
     color: #4f759e;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
