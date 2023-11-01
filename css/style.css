@@ -420,6 +420,7 @@ footer p {
 
 .main {
     background-color: #363940;
+    background-color: rgb(54 57 64 / 86%);
     border: 1px solid #32343a;
     border-top: 0;
     padding: 1.25rem;
@@ -506,4 +507,89 @@ footer p {
 .section {
     /* margin-top: 2rem; */
     margin: 1rem .75rem 2rem;
+}
+
+
+
+
+
+
+
+.project-img {
+    width: 200px;
+    border-radius: 20px;
+    width: 160px;
+    border-radius: 18px;
+    width: 140px;
+    border-radius: 16px;
+    width: 120px;
+    width: 130px;
+    border-radius: 10px;
+    display: block;
+    margin: 3px 1px 12px;
+}
+
+.project-img.zs {
+    width: 60px;
+    border-radius: 2px;
+}
+
+.project-img.xxxs {
+    width: 80px;
+    border-radius: 2px;
+}
+
+.project-img.xxs {
+    width: 100px;
+    border-radius: 2px;
+}
+
+.project-img.xs {
+    width: 120px;
+    border-radius: 4px;
+}
+
+.project-img.sss {
+    width: 140px;
+    border-radius: 4px;
+}
+
+.project-img.ss {
+    width: 160px;
+    border-radius: 6px;
+}
+
+.project-img.s {
+    width: 180px;
+    border-radius: 6px;
+}
+
+.project-img.m {
+    width: 200px;
+    border-radius: 6px;
+}
+
+.project-img.l {
+    width: 240px;
+    border-radius: 6px;
+}
+
+.project-img.xl {
+    width: 280px;
+    border-radius: 6px;
+}
+
+.project-img.xxl {
+    width: 320px;
+    border-radius: 6px;
+}
+
+.project-img.xxxl {
+    width: 380px;
+    border-radius: 6px;
+}
+
+.project-img.xxxxl {
+    width: 440px;
+    border-radius: 6px;
 }

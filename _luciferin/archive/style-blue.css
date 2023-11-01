@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* ~~~~~~~~~~ Template Default ~~~~~~~~~~ */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    background-color: #C2D9FF;
+    background-image: linear-gradient(180deg, #8bb0ff, #aec7ff, #C2D9FF, #C2D9FF, #C2D9FF, #C2D9FF, #cbdfff, #cbdfff, #cbdfff, #cbdfff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #ddeaff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff, #d0e2ff);
+    color: #395387;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    /* letter-spacing: -.5px; */
+    /* letter-spacing: -.125px; */
+    min-height: 100vh;
+    padding: .5rem 2rem;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, li, td {
+    margin: .9375rem 0;
+}
+h1 {
+    color: #275c79;
+    color: #1f5673;
+    color: #195170;
+    color: #1e5674;
+    font-size: 25px;
+    font-size: 26px;
+}
+h2 {
+    font-size: 19px;
+    font-size: 21px;
+}
+h3 {
+    font-size: 17px;
+    color: #346580;
+    /* font-size: 17.5px; */
+    /* opacity: .9; */
+}
+h4 {
+    font-size: 14px;
+    letter-spacing: .25px;
+    color: #346580;
+    color: #3e6a82;
+    /* opacity: .8; */
+}
+li {
+    margin: .5rem 0;
+}
+img {
+    width: 100%;
+    border-radius: 5px;
+    max-width: 400px;
+}
+a {
+    text-decoration: none;
+    color: #4c74d2;
+    color: #5b8cd1;
+    color: #598fdb;
+    transition: all 0.1s ease;
+}
+a:hover {
+    text-decoration: underline;
+    color: #3f69c9;
+    color: #407bcf;
+    color: #4884d8;
+    /* color: #4d68a9; */
+}
+hr {
+    margin: 1rem 0;
+    border-top: 1px dotted #2a7f88;
+    border-bottom: 1px solid rgba(144, 202, 204, 0.8);
+    background-color: transparent;
+}
+.page-title {
+    font-size: 20px;
+    color: #375486;
+    margin-bottom: 1.125rem;
+}
+.lucicom {
+    width: 50px;
+    margin-right: 14px;
+    position: sticky;
+    top: 2rem;
+    z-index: 9999;
+}
+.template-title-wrapper-container {
+    margin-top: 2.75rem;
+    margin-bottom: 1.5rem;
+    margin-bottom: 1.625rem;
+    margin-bottom: 1.75rem;
+}
+.template-title-wrapper {
+    border-bottom: 1px dotted #6487bf;
+    padding-bottom: .75rem;
+}
+.template-title {
+    color: #375db5;
+    font-size: 22px;
+    font-size: 23px;
+    margin: 0;
+}
+.template-subject {
+    font-weight: 100;
+    font-weight: 400;
+    color: #4b72b2;
+    color: #5578af;
+    border-left: 1px dotted #44989b;
+    margin-left: 13px;
+    padding-left: 15px;
+    font-size: 16px;
+    letter-spacing: .1px;
+}
+.body-container {
+    background-color: rgb(42 130 127 / 50%);
+    background-color: rgba(49, 151, 148, 0.65);
+    background-color: rgba(49, 151, 148, 0.55);
+    background-color: rgba(49, 151, 148, 0.6);
+    border: 1px solid #4f91a0;
+    border: 1px solid #a6b3ce;
+    box-shadow: inset 1px 2px 2px #566161;
+    border-radius: 14px;
+    padding: .75rem 2rem;
+    padding: 1.875rem;
+    margin-top: .75rem;
+}
+.body-container h1:first-child,
+.body-container p:first-child {
+    margin-top: 0;
+}
+.body-container p:last-child,
+.body-container li:last-child {
+    margin-bottom: 0;
+}
+
+/* ~~~~~ Footer ~~~~~ */
+.creator-section {
+    padding: .5rem 0 0;
+    display: flex;
+    align-items: center;
+}
+.creator {
+    color: #808993;
+    color: #9198a0;
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+    font-size: 11.5px;
+    font-size: 12px;
+    letter-spacing: .375px;
+    letter-spacing: .275px;
+}
+.creator-name {
+    color: rgba(57, 83, 135, 0.85);
+    color: rgba(107, 114, 124, 0.75);
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: -2px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-right: -2px;
+    margin-right: -3px;
+    font-size: 9.5px;
+}
+.creator-separator {
+    margin: 0 4px;
+    margin: 0 6px;
+    margin: 0 5px;
+    /* opacity: .5; */
+    /* opacity: .875; */
+    font-size: 11px;
+    font-weight: 100;
+    color: #72767d;
+    /* color: #666970; */
+}
+.creator-links a {
+    /* margin-left: 2px; */
+    font-size: 11.5px;
+    margin: 0 2px;
+    /* margin: 0 3px; */
+}
+.creator-links i {
+    /* margin-right: 4px; */
+    margin-left: 4px;
+    margin-left: 3px;
+}
+.creator-link-separator {
+    margin: 0 1.5px;
+    /* opacity: .425; */
+    color: #80858c;
+    color: #72767d;
+    /* color: #666970; */
+    font-weight: 100;
+}
+
+/* ~~~~~ Utilities ~~~~~ */
+.mb0 {
+    margin-bottom: 0;
+}
+.mt0 {
+    margin-top: 0;
+}
+
+/* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
+

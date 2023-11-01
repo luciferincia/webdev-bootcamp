@@ -170,3 +170,81 @@ hr {
 }
 
 /* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
+.body-container {
+    /* background-image: linear-gradient(180deg, #9fc8c7, #7cbbb9); */
+    /* background-image: linear-gradient(180deg, #9fc8c7, #89c2c0); */
+    /* background-image: linear-gradient(180deg, rgb(159 200 199 / 80%), #7cbbb9); */
+    
+    /* background-image: linear-gradient(180deg, #9fc8c7, #76afad); */
+    background-image: linear-gradient(180deg, rgb(159, 200, 199), #76afad);
+    /* background-image: linear-gradient(180deg, #9fc2c8, #76afad); */
+    background-image: linear-gradient(180deg, rgba(159, 194, 200, 0.9), #76afad);
+    background-image: linear-gradient(180deg, rgba(159, 198, 200, 0.9), #76afad);
+    /* background-image: linear-gradient(180deg, rgba(173, 202, 205, 0.9), #7bb9b7); */
+    /* background-image: linear-gradient(180deg, rgb(176 210 213 / 90%), #7bb9b7); */
+
+    /* background-image: linear-gradient(180deg, #a7c2d9, #7bb9b7); */
+    /* background-image: linear-gradient(180deg, #a7cad9, #7bb9b7); */
+    /* background-image: linear-gradient(180deg, #9bc3d4, #7bb9b7); */
+
+
+    /* ~~~~~ final background color ~~~~~ */
+    background-image: linear-gradient(180deg, rgba(159, 198, 200, 0.9), #76afad);
+    background-image: linear-gradient(180deg, #9bc3d4, #7bb9b7);
+    background-image: linear-gradient(180deg, #9fc4cd, #7bb9b7);
+    background-image: linear-gradient(180deg, #9fcacd, #74b1af);
+ 
+    background-image: linear-gradient(180deg, rgba(174, 207, 209, 0.9), #76afad);
+    background-image: linear-gradient(180deg, #97c1d0, #8abfbd);
+    background-image: linear-gradient(180deg, #97c1d0, #80b9b7);
+
+    background-image: linear-gradient(180deg, rgba(159, 198, 200, 0.9), #76afad);
+
+    background-image: linear-gradient(180deg, #9cc9c7, #7cbbb9);  
+
+    background-image: linear-gradient(180deg, #9ccecc, #7cbbb9);
+    background-image: linear-gradient(180deg, #9cc9c7, #7cbbb9);
+    background-image: linear-gradient(180deg, #9cc7c9, #7cbbb9);
+}
+.animal-kingdom-title {
+    margin-bottom: .625rem;
+}
+img {
+    max-width: 400px;
+    max-width: 260px;
+    border-radius: 5px;
+}
+.animal-group {
+    display: flex;
+}
+.animal {
+    display: inline-block;
+    padding: 9px;
+    padding: 8px;
+    /* text-align: center; */
+    background-color: rgba(14, 29, 46, 0.15);
+    background-color: #d7d8d8;
+    background-image: linear-gradient(0deg, #bfbfbf, #d7d8d8);
+    background-image: linear-gradient(0deg, #c8c8c8, #e4e4e4);
+    margin: 8px;
+    border-radius: 6px;
+    border-radius: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(112 167 166 / 70%);
+    height: fit-content;
+    box-shadow: 3px 4px 4px rgba(16, 38, 71, 0.1);
+    box-shadow: 2px 3px 4px rgba(16, 38, 71, 0.5);
+}
+.animal:first-child {
+    margin-left: 0;
+}
+.animal:last-child {
+    margin-right: 0;
+}
+.animal-title {
+    font-size: 15px;
+    letter-spacing: .25px;
+    margin-bottom: .55rem;
+    margin-top: 0;
+    padding: 0 2px;
+}
