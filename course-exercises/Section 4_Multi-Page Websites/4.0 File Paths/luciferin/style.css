@@ -221,6 +221,7 @@ img {
     display: inline-block;
     padding: 9px;
     padding: 8px;
+    /* padding: 6px; */
     /* text-align: center; */
     background-color: rgba(14, 29, 46, 0.15);
     background-color: #d7d8d8;

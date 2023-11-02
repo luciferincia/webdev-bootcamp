@@ -236,6 +236,7 @@ footer p {
     border-bottom: 2px solid rgba(43, 46, 53, .4);
     margin-bottom: 1.25rem;
     padding-bottom: 1.25rem;
+    padding-bottom: 1rem;
 }
 
 .page-hero.home {
@@ -250,6 +251,7 @@ footer p {
 
 .page-hero.home h1 {
     font-size: 48px;
+    font-size: 46px;
 }
 
 .page-hero.home  .creator-social {
@@ -274,6 +276,7 @@ footer p {
     padding: 4px 8px;
     padding: 5px 9px;
     padding: 6px 10px;
+    padding: 5px 10px;
     /* padding: 7px 11px; */
     border-radius: 100px;
     background-color: rgba(120, 191, 180, 0.08);
@@ -320,6 +323,7 @@ footer p {
     display: flex;
     justify-content: right;
     cursor: pointer;
+    /* font-size: 15px; */
 }
  
 .creator-social a:hover {
@@ -330,6 +334,10 @@ footer p {
     align-items: center;
     margin-left: .625rem;
     padding-left: .625rem;
+    margin-left: .575rem;
+    padding-left: .575rem;
+    margin-left: .525rem;
+    padding-left: .525rem;
     transition: all .1s ease;
     border-left: 1px dotted rgba(43, 46, 53, 0.8);
 }
@@ -355,7 +363,9 @@ footer p {
 }
 .creator-social-link-icon {
     font-size: 16px;
+    font-size: 15px;
     color: rgba(39, 44, 48, 0.95);
+    color: rgba(39, 44, 48, 0.8);
     transition: all .2s ease;
 }
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luciferin &ndash; Code Exercise</title>
+    <link rel="icon" type="image/png" href="assets/luciferin-icon.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d00641938a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="assets/luciferin-icon.png" alt="Luciferin Pixel Computer" class="lucicom">
+    <div class="template-title-wrapper-container">
+        <div class="template-title-wrapper">
+            <h1 class="template-title">
+                <span>Luciferin</span>
+                <span class="template-subject">8.1 CSS Float</span>
+            </h1>
+        </div>
+    </div>
+    <!--~~~~~~~~~~ Your Code START Here ~~~~~~~~~~-->
+    <div class="body-container">
+
+        <h1>CSS Float Property</h1>
+        <p class="exercise-desc">Example of <i>image</i> <code class="css">float: left;</code> and <i>copyrights</i><code class="css">clear: left;</code></p>
+        <div class="content-wrapper">
+
+            <!-- <div class="section"> -->
+            <h3 class="section-title">Default Flow</h3>
+            <h4 class="section-subtitle"><span class="section-subtitle-header">No CSS rules applied</span></h4>
+            <img class="lucigif default" src="assets/images/luciferin.gif" alt="Luciferin">
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, assumenda? Omnis eos enim sint libero magni quisquam nobis ad nostrum, porro laboriosam minima corporis placeat reprehenderit saepe ullam voluptatibus ducimus!</p>
+            <!-- </div> -->
+            <hr>
+
+            <!-- <div class="section"> -->
+            <h3 class="section-title">Float Right</h3>
+            <!-- <h4 class="section-subtitle"><span class="section-subtitle-header">CSS Rule</span><i class="fa-solid fa-arrow-right arrow-icon"></i> <code class="tag">img {</code>  <code class="title-code">float: right;</code></h4> -->
+            <h4 class="section-subtitle"><span class="section-subtitle-header">CSS Rule</span> <code class="tag">img {</code>  <code class="title-code">float: right;</code> <code class="tag">}</code></h4>
+            <img class="lucigif one" src="assets/images/luciferin.gif" alt="Luciferin">
+            <p class="text one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, assumenda? Omnis eos enim sint libero magni quisquam nobis ad nostrum, porro laboriosam minima corporis placeat reprehenderit saepe ullam voluptatibus ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique magni corporis animi repellendus, quo odio harum dolorum aliquam, neque est! Amet quo eveniet officia.</p>
+            
+            <hr class="decorative-line mb025">
+            <p class="note one mt0">* this horizontal line doesn't clear float right to break out of the float right flow.</p>
+            <!-- </div> -->
+            
+            <hr class="horizontal-line mb05 mt15">
+            <p class="note two mt0">** this horizontal line has cleared float right with <code>clear: right;</code> and broke of the float right flow.</p>
+
+            <!-- <div class="section"> -->
+            <h3 class="section-title">Float Left</h3>
+            <!-- <h4 class="section-subtitle"><code class="tag">img</code> <i class="fa-solid fa-arrow-right arrow-icon"></i> <code class="title-code">float: left;</code></h4> -->
+            <h4 class="section-subtitle"><span class="section-subtitle-header">CSS Rule</span> <code class="tag">img {</code>  <code class="title-code">float: right;</code> <code class="tag">}</code></h4>
+            <img class="lucigif two" src="assets/images/luciferin.gif" alt="Luciferin">
+            <p class="text two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, assumenda? Omnis eos enim sint libero magni quisquam nobis ad nostrum, porro laboriosam minima corporis placeat reprehenderit saepe ullam voluptatibus ducimus!</p>
+            
+            <div class="footer">
+                <p class="text"><span class="copyright">&copy; 2024</span> <span class="company-name">PixelRun LLC</span></p>
+                <p class="text">Designed & developed by &nbsp;<a href="https://github.com/luciferincia" target="_blank" rel="noopener noreferrer">luciferincia <i class="fa-brands fa-github-alt"></i></a></p>
+            </div>
+            <p class="note two mt05">*** this footer has cleared float left with <code>clear: left;</code> and broke of the float left flow.</p>
+            <!-- </div> -->
+
+        </div>
+
+    </div>
+    <!--~~~~~~~~~~ Your Code END Here ~~~~~~~~~~-->
+    <div class="creator-section">
+        <p class="creator">
+            <span class="creator-name">Luciferin</span>
+            <span class="creator-separator">|</span>
+            <!-- <span>Developed & curated by <a href="https://github.com/luciferincia" target="_blank" rel="noopener noreferrer">luciferincia <i class="fa-brands fa-github-alt"></i></a></span> -->
+            <span>Developed & curated by <a href="https://github.com/luciferincia" target="_blank" rel="noopener noreferrer">luciferincia <i class="fa-brands fa-github-alt"></i></a></span>
+        </p>
+    </div>
+</body>
+</html>
