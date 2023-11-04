@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* ~~~~~~~~~~ Template Default ~~~~~~~~~~ */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(180deg, 
+    #75afb7, 
+    #9bc7ce, #afd3d9, #bedbe0, 
+    #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, #c6dee4, 
+    #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb, #d3e8eb,
+    #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb, #d3e6eb
+    );
+    color: #4f759e;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+    padding: .5rem 2rem;
+}
+h1, h2, h3, h4, h5, h6, p, li, td {
+    margin: .9375rem 0;
+}
+h1 {
+    color: #1e5674;
+    font-size: 26px;
+}
+h2 {
+    font-size: 21px;
+}
+h3 {
+    font-size: 17px;
+}
+h4 {
+    font-size: 14px;
+    letter-spacing: .25px;
+}
+li {
+    margin: .5rem 0;
+}
+img {
+    width: 100%;
+    border-radius: 5px; 
+    max-width: 400px;
+}
+a {
+    text-decoration: none;
+    color: #55a9ab;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    transition: all 0.1s ease;
+}
+a:hover {
+    text-decoration: underline;
+    color: #479a9f;
+}
+hr {
+    margin: 1rem 0;
+    border-top: 1px dotted #2a7f88;
+    border-bottom: 1px solid rgba(144, 202, 204, 0.8);
+    background-color: transparent;
+}
+.page-title {
+    font-size: 20px;
+    color: #375486;
+    margin-bottom: 1.125rem;
+}
+.lucicom {
+    width: 50px;
+    margin-right: 14px;
+    position: sticky;
+    top: 2rem;
+    z-index: 9999;
+}
+.template-title-wrapper-container {
+    margin-top: 2.75rem;
+    margin-bottom: 1.75rem;
+}
+.template-title-wrapper {
+    border-bottom: 1px dotted #7facaa;
+    padding-bottom: .75rem;
+}
+.template-title {
+    color: #34679e;
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: .375px;
+    margin: 0;
+}
+.template-subject {
+    font-weight: 400;
+    color: #4775a7;
+    border-left: 1px dotted #7facaa;
+    margin-left: 13px;
+    padding-left: 15px;
+    font-size: 16px;
+    letter-spacing: .1px;
+}
+.body-container {
+    background-color: #7cbbb9;
+    background-image: linear-gradient(180deg, #9ccecc, #7cbbb9);
+    background-image: linear-gradient(180deg, #9cc9c7, #7cbbb9);  
+    background-image: linear-gradient(180deg, #9cc7c9, #7cbbb9);
+    border: 1px solid rgba(155, 159, 159, 0.5);
+    box-shadow: inset 1px 2px 2px #566161;
+    border-radius: 14px;
+    padding: 1.875rem;
+    margin-top: .75rem;
+    color: #275c79;
+}
+.body-container h1:first-child,
+.body-container p:first-child {
+    margin-top: 0;
+}
+.body-container p:last-child,
+.body-container li:last-child {
+    margin-bottom: 0;
+}
+.body-container a {
+    color: #0b81be;
+}
+.body-container a:hover {
+    color: #009bd4;
+    color: #007ab7;
+}
+
+/* ~~~~~ Footer ~~~~~ */
+.creator-section {
+    padding: .5rem 0 0;
+    display: flex;
+    align-items: center;
+}
+.creator {
+    color: #9198a0;
+    font-size: 12px;
+    letter-spacing: .275px;
+}
+.creator-name {
+    color: #829da2;
+    font-size: 9.5px;
+    font-weight: 700;
+    margin-right: -1px;
+    letter-spacing: 2.5px;
+    margin-right: -3px;
+    text-transform: uppercase;
+}
+.creator-separator {
+    margin: 0 5px;
+    opacity: .875;
+    font-size: 11px;
+    font-weight: 100;
+    color: #72767d;
+}
+.creator-links a {
+    font-size: 11.5px;
+    margin: 0 2px;
+}
+.creator-links i {
+    margin-left: 3px;
+}
+.creator-link-separator {
+    margin: 0 1.5px;
+    font-weight: 100;
+    color: #72767d;
+}
+
+/* ~~~~~ Utilities ~~~~~ */
+.mb0 {
+    margin-bottom: 0;
+}
+.mt0 {
+    margin-top: 0;
+}
+
+/* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
