@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+}
+h2 {
+    color: #1a516f;
+    font-size: 17px;
+    margin-bottom: 1.2rem;
+}
+.reference {
+    margin-top: 1.5rem;
+}
+.reference-title {
+    margin-bottom: -.425rem;
+}
+.reference-list {
+    margin-bottom: 0;
+    padding-inline-start: 0;
+    list-style-position: inside;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex-container {
+    display: flex;
+  }
+
+.card {
+    background-image: linear-gradient(-45deg, #0d14ae, #f3a58c);
+    border-radius: 5px;
+    margin: 10px;
+    height: 160px;
+    flex: 1;
+}
+.card:first-child {
+    margin-left: 0;
+}
+.card:last-child {
+    margin-right: 0;
+}
+.first-card {
+    flex: 2;
+}
+.second-card {
+    flex: 0.5;
+}
+.fifth-card {
+    flex: 3;
+}

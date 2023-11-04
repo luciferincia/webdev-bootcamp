@@ -173,6 +173,17 @@ hr {
 }
 
 /* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
+.paragraph {
+    color: #4f759e;
+    color: #506984;
+    color: rgba(69, 87, 106, 0.7);
+    margin-bottom: 0;
+}
+.external-link {
+    font-size: 75%;
+    margin-left: 2px;
+}
+
 .body-container {
     background-color: aquamarine !important;
     background-image: linear-gradient(0deg, aquamarine, aquamarine);
@@ -224,8 +235,20 @@ Laptops : 1201px — 1600px [limegreen]
 Desktops : 1601px and more [seagreen]
 --------------------------------------- */
 
-/* ~~ the following media queries are adjusted based on what I thought as 
+/* ~~ 🚩 the following media queries are adjusted based on what I thought as 
 more correct breakpoints : Luciferin ~~ */
+
+/* 🦊🧡 ~~~~* Medium / Tablets and iPads : 560px — 1199px *~~~~ */
+@media only screen and (min-width: 560px) and (max-width: 1199px) {
+    .body-container {
+        background-image: linear-gradient( 90deg, #52249d, #ff8d67);
+    }
+    .medium {
+        display: block;
+    }
+}
+/* ::: medium rules are applied first because they are created as default. Then other breakpoints overrides these rules below ::: */
+
 
 /* 🦄💜 ~~~~* Extra Small *~~~~ */
 @media only screen and (max-width: 319px) {
@@ -314,6 +337,8 @@ more correct breakpoints : Luciferin ~~ */
     }
     .body-container {
         background-image: linear-gradient(90deg, #3f2da4, #52c8d7);
+        background-image: linear-gradient(90deg, #3f2da4, #3dccbe);
+
         min-height: 420px !important;
     }
     .small {
@@ -330,16 +355,6 @@ more correct breakpoints : Luciferin ~~ */
         font-size: 28px !important;
         padding: 7px 15px 10px !important;
         border-radius: 9px !important;
-    }
-}
-
-/* 🦊🧡 ~~~~* Medium / Tablets and iPads : 560px — 1199px *~~~~ */
-@media only screen and (min-width: 560px) and (max-width: 1199px) {
-    .body-container {
-        background-image: linear-gradient( 90deg, #52249d, #ff8d67);
-    }
-    .medium {
-        display: block;
     }
 }
 
@@ -367,6 +382,7 @@ more correct breakpoints : Luciferin ~~ */
 @media only screen and (min-width: 1600px) {
     .body-container {
         background-image: linear-gradient(90deg, #980685, #ff6868 );
+        background-image: linear-gradient(90deg, #980685, #ff7568 );
         min-height: 660px !important;
     }
     .extra-large {

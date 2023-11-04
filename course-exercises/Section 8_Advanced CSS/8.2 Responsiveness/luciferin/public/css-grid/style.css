@@ -1,0 +1,133 @@
+.title {
+    text-align: center;
+}
+h2 {
+    color: #1a516f;
+    font-size: 17px;
+    margin-bottom: 1.2rem;
+}
+.reference {
+    margin-top: 1.5rem;
+}
+.reference-title {
+    margin-bottom: -.425rem;
+}
+.reference-list {
+    margin-bottom: 0;
+    padding-inline-start: 0;
+    list-style-position: inside;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 200px;
+    gap: 20px;
+  
+    margin-bottom: 2.25rem;
+}
+.grid-container:last-child {
+    margin-bottom: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: .25px;
+    color: #ffffff;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.col-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 2px;
+    font-size: 15px;
+    color: white;
+    padding: 3px 9px 5px;
+    border-radius: 5px;
+    background-color: rgba(43, 36, 78, 0.7);
+    text-transform: lowercase;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+.span-3 {
+    grid-column: span 3;
+}
+.span-4 {
+    grid-column: span 4;
+}
+.span-5 {
+    grid-column: span 5;
+}
+
+/* ----- 🦄 Version 1 🦄 ----- */
+.grid-container.version1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 360px 220px;
+}
+.version1 .card {
+    font-size: 38px;
+    background-image: linear-gradient(-45deg, #441670 10%, #e758dd);
+
+}
+.grid-container.version1 .col-number {
+    background-color: rgba(47, 29, 70, 0.6);
+}
+
+/* ----- 🦊 Version 2 🦊 ----- */
+.grid-container.version2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px 180px;
+}
+.version2 .card {
+    font-size: 34px;
+    background-image: linear-gradient(45deg, #870c50, #ff6b50);
+}
+.grid-container.version2 .col-number {
+    background-color: rgba(82, 21, 24, 0.6);
+}
+
+/* ----- 🐬 Version 3 🐬 ----- */
+.grid-container.version3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 160px 160px 160px 160px;
+}
+.version3 .card {
+    font-size: 32px;
+    background-image: linear-gradient(-45deg, #1f186a, #4edfe4);
+}
+.grid-container.version3 .col-number {
+    background-color: rgba(36, 37, 78, 0.65);
+}
+
+/* ----- 🐱 Version 4 🐱 ----- */
+.grid-container.version4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 120px 120px 120px 120px;
+}
+.version4 .card {
+    font-size: 30px;
+    background-image: linear-gradient(45deg, #d55721, #f7d868);
+}
+.version4 .col-number {
+    background-color: rgba(91, 42, 31, 0.55);
+}

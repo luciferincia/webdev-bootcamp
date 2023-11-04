@@ -1,0 +1,80 @@
+/* ~~~~~~~~~~~~~~ Boostrap Reset ~~~~~~~~~~~~~~ */
+body {
+    margin: 12px 8px;
+}
+h1, h2 {
+    font-weight: bold;
+}
+hr {
+    opacity: 1;
+}
+.template-title-wrapper {
+    padding-bottom: 0.725rem;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.title {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+h2 {
+    color: #1a516f;
+    font-size: 17px;
+    margin-bottom: 1.2rem;
+}
+.reference {
+    margin-top: 1.5rem;
+}
+.reference-title {
+    margin-bottom: -.425rem;
+}
+.reference-list {
+    margin-bottom: 0;
+    padding-inline-start: 0;
+    list-style-position: inside;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.container {
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+}
+.row {
+    margin-bottom: 1rem;
+}
+.col:first-child {
+    /* padding-left: 0 !important; */
+    /* padding-left: 0.5rem !important; */
+}
+.col:last-child {
+    /* padding-right: 0 !important; */
+    /* padding-left: 0.5rem !important; */
+}
+.card {
+    background-image: linear-gradient(-45deg, #0d14ae, #f3a58c);
+    background-image: linear-gradient( 180.4deg,  rgba(188,120,236,1) -2.2%, rgba(29,133,163,1) 83.5% );
+    background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+    background-image: linear-gradient( 110.6deg,  rgba(179,157,219,1) 7%, rgba(150,159,222,1) 47.7%, rgba(24,255,255,1) 100.6% );
+    background-image: linear-gradient( 88.7deg,  rgba(144,254,229,1) -17.1%, rgba(91,193,239,1) 40.4%, rgba(119,94,173,1) 115.3% );
+    background-image: linear-gradient( 109.6deg,  rgba(9,9,121,1) 11.2%, rgba(144,6,161,1) 53.7%, rgba(0,212,255,1) 100.2% );
+    background-image: linear-gradient( 87.9deg,  rgba(140,253,242,1) 9.7%, rgba(81,162,228,1) 45.5%, rgba(154,16,154,1) 92.5% );
+    background-image: linear-gradient( 179.2deg,  rgba(34,34,34,1) 0%, rgba(8,0,153,1) 29.7%, rgba(118,6,166,1) 63.4%, rgba(233,0,64,0.58) 100.1% );
+    background-image: linear-gradient( 109.6deg,  rgba(123,90,224,1) 11.2%, rgba(164,46,253,1) 32.6%, rgba(213,56,234,1) 62.7%, rgba(251,138,52,1) 100.2% );
+    background-image: linear-gradient( 111.6deg,  rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+    border-radius: 6px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    /* margin: 1%; */
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .25px;
+}
+
+.mt2 {
+    margin-top: 2rem;
+}
