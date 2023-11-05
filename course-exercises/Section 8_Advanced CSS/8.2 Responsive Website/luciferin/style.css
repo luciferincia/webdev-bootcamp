@@ -173,8 +173,185 @@ hr {
 }
 
 /* ~~~~~~~~~~ ⬇️ Your Code START Here ⬇️ ~~~~~~~~~~ */
+/* ~~~~~ ordered list reset (start) ~~~~~ */
 .reference-list {
     margin-bottom: 0;
     padding-inline-start: 0;
     list-style-position: inside;
+}
+/* ~~~~~ ordered list reset (end) ~~~~~ */
+
+.ref-title {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+.reference-list {
+    margin-top: 8px;
+    display: flex;
+}
+.reference-list-row {
+    display: flex;
+    padding: 0 24px;
+    border-right: 1px dotted rgba(255, 255, 255, 0.45);
+}
+.reference-list-row:first-child {
+    padding-left: 0;
+}
+.reference-list-row:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+.reference-list-col {
+    width: 50%;
+    /* max-width: 180px; */
+    padding: 0 24px;
+    border-right: 1px dotted rgba(255, 255, 255, 0.45);
+}
+.reference-list-col:first-child {
+    padding-left: 0;
+}
+.reference-list-col:last-child {
+    padding-right: 0;
+    border-right: none;
+} 
+.reference-list-name {
+    font-size: 14px;
+    font-size: 14.75px;
+    margin-bottom: 8px;
+    margin-bottom: 10px;
+}
+.reference-list-number {
+    color: #275c79;
+    margin-right: 1px;
+}
+.reference-img {
+    display: block;
+    max-width: 180px;
+    margin: 8px 0 15px 10px;
+    
+    max-width: 100%;
+    margin: 0;
+}
+.reference-img:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 799px) {
+    body {
+        padding: 1.25rem;
+    }
+    .lucicom {
+        width: 46px;
+    }
+    .template-title-wrapper-container {
+        margin-top: 1.625rem;
+        margin-bottom: 1.5rem;
+    }
+    .template-title-wrapper {
+        /* padding-bottom: .875rem; */
+    }
+    .template-title {
+        font-size: 20px;
+    }
+    .template-subject {
+        font-size: 15px;
+        margin-left: 10px;
+        padding-left: 13px;
+    }
+    .body-container {
+        padding: 1.5rem;
+        border-radius: 13px;
+    }
+    .ref-title {
+        font-size: 23px;
+    }
+
+    .reference-list {
+        flex-direction: column;
+    }
+    .reference-list-row:first-child {
+        padding-right: 0;
+        border-right: 0;
+    }
+    .reference-list-row:first-child .reference-list-col {
+        padding-top: 0;
+    }
+    .reference-list-row:last-child {
+        padding-left: 0;
+    }
+    .reference-list-row:last-child .reference-list-col {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .reference-list-col {
+        padding: 16px;
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.45);
+        border-right: 1px dotted rgba(255, 255, 255, 0.45);
+    }
+
+    .reference-list-name {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+}
+
+
+@media only screen and (max-width: 419px) {
+    body {
+        padding: .5rem;
+        padding: .75rem;
+    }
+    .lucicom {
+        width: 36px;
+        top: 1.25rem;
+        width: 40px;
+        top: 1.25rem;
+    }
+    .template-title-wrapper-container {
+        margin-top: 1.125rem;
+        margin-bottom: 1.375rem;
+    }
+    .template-title {
+        font-size: 19px;
+    }
+    .template-subject {
+        font-size: 14px;
+        margin-left: 8px;
+        padding-left: 11px;
+    }
+    .body-container {
+        padding: 1.25rem;
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 18px;
+        margin-bottom: 1.125rem;
+    }
+
+    .ref-title {
+        font-size: 20px;
+    }
+    .reference-list-row {
+        flex-direction: column;
+    }
+    .reference-list-col {
+        width: 100%;
+        border-right: 0;
+        padding: 18px 0;
+    }
+    .reference-list-row:first-child .reference-list-col:first-child {
+        padding-top: 0;
+    }
+    .reference-list-row:first-child .reference-list-col {
+        padding-top: 16px;
+    }
+    .reference-list-row:last-child .reference-list-col {
+        border-bottom: 1px dotted rgba(255, 255, 255, 0.45);
+        padding-bottom: 16px;
+    }
+    .reference-list-row:last-child .reference-list-col:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
 }

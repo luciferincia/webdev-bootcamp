@@ -12,10 +12,20 @@ h2 {
 .reference-title {
     margin-bottom: -.425rem;
 }
+.reference-title:hover {
+    text-decoration: underline;
+}
+.reference-icon {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: -1px;
+    color: #178889;
+}
 .reference-list {
     margin-bottom: 0;
     padding-inline-start: 0;
     list-style-position: inside;
+    display: block;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 

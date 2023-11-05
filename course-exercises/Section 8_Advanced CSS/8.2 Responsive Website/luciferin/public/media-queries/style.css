@@ -12,10 +12,20 @@ h2 {
 .reference-title {
     margin-bottom: -.425rem;
 }
+.reference-title:hover {
+    text-decoration: underline;
+}
+.reference-icon {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: -1px;
+    color: #178889;
+}
 .reference-list {
     margin-bottom: 0;
     padding-inline-start: 0;
     list-style-position: inside;
+    display: block;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -31,18 +41,17 @@ h2 {
 }
 
 .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: aquamarine;
     background-image: linear-gradient(0deg, aquamarine, aquamarine);
     min-height: 400px;
     transition: all .3s ease;
-
     border: 1px solid rgba(155, 159, 159, 0.5);
-    box-shadow: inset 1px 2px 2px #566161;
-    border-radius: 8px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 9px;
+    /* box-shadow: inset 1px 2px 2px #566161; */
 }
 
 .content-wrapper {
@@ -94,8 +103,7 @@ more correct breakpoints : Luciferin ~~ */
     .content-container {
         background-image: linear-gradient( 109.6deg,  rgba(123,90,224,1) 11.2%, rgba(164,46,253,1) 32.6%, rgba(213,56,234,1) 62.7%, rgba(251,138,52,1) 100.2% );
         background-image: linear-gradient( 179.2deg,  rgba(34,34,34,1) 0%, rgba(8,0,153,1) 29.7%, rgba(118,6,166,1) 63.4%, rgba(233,0,64,0.58) 100.1% );
-        background-image: linear-gradient(90deg, #980685, #ff6868 );
-        background-image: linear-gradient(90deg, #980685, #ff7568 );
+        background-image: linear-gradient( 90deg, #52249d, #ff8d67);
     }
     .medium {
         display: block;
@@ -266,7 +274,8 @@ more correct breakpoints : Luciferin ~~ */
 /* 🐸💚 ~~~~* Extra Large / Desktops : 1600px and more *~~~~ */
 @media only screen and (min-width: 1600px) {
     .content-container {
-        background-image: linear-gradient( 90deg, #52249d, #ff8d67);
+        background-image: linear-gradient(90deg, #980685, #ff6868 );
+        background-image: linear-gradient(90deg, #980685, #ff7568 );
         min-height: 540px;
     }
     .extra-large {

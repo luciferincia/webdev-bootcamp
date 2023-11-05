@@ -27,11 +27,23 @@ h2 {
 }
 .reference-title {
     margin-bottom: -.425rem;
+    display: flex;
+    align-items: center;
+}
+.reference-title:hover {
+    text-decoration: underline;
+}
+.reference-icon {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: -1px;
+    color: #178889;
 }
 .reference-list {
     margin-bottom: 0;
     padding-inline-start: 0;
     list-style-position: inside;
+    display: block;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -70,11 +82,14 @@ h2 {
     color: white;
     border: none;
     /* margin: 1%; */
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: .25px;
 }
 
 .mt2 {
     margin-top: 2rem;
+}
+.mt1-025 {
+    margin-top: 1.25rem;
 }
