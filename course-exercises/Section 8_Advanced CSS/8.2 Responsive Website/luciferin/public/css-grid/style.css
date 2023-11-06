@@ -96,8 +96,11 @@ h2 {
     background-image: linear-gradient(-45deg, #441670 10%, #e758dd);
 
 }
-.grid-container.version1 .col-number {
+.version1 .col-number {
     background-color: rgba(47, 29, 70, 0.6);
+    /* font-size: 16px;
+    padding: 3px 9px 6px;
+    border-radius: 6px; */
 }
 
 /* ----- 🦊 Version 2 🦊 ----- */
@@ -110,8 +113,9 @@ h2 {
     font-size: 34px;
     background-image: linear-gradient(45deg, #870c50, #ff6b50);
 }
-.grid-container.version2 .col-number {
+.version2 .col-number {
     background-color: rgba(82, 21, 24, 0.6);
+    /* padding: 3px 9px 6px; */
 }
 
 /* ----- 🐬 Version 3 🐬 ----- */
@@ -124,8 +128,10 @@ h2 {
     font-size: 32px;
     background-image: linear-gradient(-45deg, #1f186a, #4edfe4);
 }
-.grid-container.version3 .col-number {
+.version3 .col-number {
     background-color: rgba(36, 37, 78, 0.65);
+    /* font-size: 14.5px;
+    padding: 3px 8px 5px; */
 }
 
 /* ----- 🐱 Version 4 🐱 ----- */
@@ -140,4 +146,20 @@ h2 {
 }
 .version4 .col-number {
     background-color: rgba(91, 42, 31, 0.55);
+    /* font-size: 14px;
+    padding: 2px 8px 4px;
+    border-radius: 4px; */
+}
+
+/* --------------------------- */
+.paragraph {
+    color: #4f759e;
+    color: #506984;
+    color: rgba(69, 87, 106, 0.7);
+    margin-bottom: 0;
+    margin-top: -.75rem;
+}
+.external-link {
+    font-size: 75%;
+    margin-left: 2px;
 }

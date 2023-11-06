@@ -15,7 +15,16 @@ hr {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .title {
     text-align: center;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.375rem;
+    padding-top: 0.5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bootstrap-logo {
+    width: 38px;
+    margin-right: 10px;
 }
 h2 {
     color: #1a516f;
@@ -74,6 +83,7 @@ h2 {
     background-image: linear-gradient( 179.2deg,  rgba(34,34,34,1) 0%, rgba(8,0,153,1) 29.7%, rgba(118,6,166,1) 63.4%, rgba(233,0,64,0.58) 100.1% );
     background-image: linear-gradient( 109.6deg,  rgba(123,90,224,1) 11.2%, rgba(164,46,253,1) 32.6%, rgba(213,56,234,1) 62.7%, rgba(251,138,52,1) 100.2% );
     background-image: linear-gradient( 111.6deg,  rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+    background-image: linear-gradient( 111.6deg,  rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 100% );
     border-radius: 6px;
     height: 160px;
     display: flex;

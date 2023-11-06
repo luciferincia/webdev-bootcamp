@@ -1,0 +1,280 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 10px 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.main {
+    flex: 1;
+    margin-bottom: 4rem;
+}
+h1 {
+    font-size: 5rem;
+}
+footer {
+    text-align: right;
+    color: midnightblue;
+}
+/* ----- default course styles ----- */
+
+.title {
+  width: 65%;
+}
+
+.text-highlight {
+  color: midnightblue;
+} 
+
+.grid-container-row-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 350px;
+}
+
+.grid-container-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 350px;
+  gap: 20px;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.card {
+  display: block;
+}
+
+.card.left {
+  margin-right: 3rem;
+}
+
+.card.right {
+  margin-left: 3rem;
+}
+
+.card-title-image {
+  float: left;
+  width: 52%;
+  margin-right: 3rem;
+}
+
+/* footer  {
+  padding-top: 5rem;
+} */
+
+@media only screen and (max-width: 1332px) {
+  .title {
+    width: 85%;
+  }
+  
+}
+
+@media only screen and (max-width: 1199px) {
+  .logo {
+    width: 248px;
+  }
+  .title {
+    width: 85%;
+    font-size: 4.75rem;
+    line-height: 1.375;
+  }
+
+  .grid-container-row-1 {
+    grid-template-rows: 340px;
+  }
+  .card.left {
+    margin-right: 1rem;
+  }
+  .card.right {
+    margin-left: 1rem;
+  }
+
+  .card-title-image {
+    float: none;
+    width: 100%;
+  }
+
+  footer {
+    padding-top: 8rem;
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  .logo {
+    width: 230px;
+  }
+  .main {
+    margin-bottom: 4rem;
+  }
+  .title {
+    width: 100%;
+    font-size: 4.25rem;
+  }
+  .grid-container-row-1 {
+    grid-template-rows: 300px;
+  }
+  footer {
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    width: 210px;
+  }
+  .title {
+    width: 100%;
+    font-size: 3.75rem;
+  }
+}
+
+@media only screen and (max-width: 679px) {
+  body {
+    margin: 40px 40px 10px 40px;
+  }
+  .main {
+    margin-bottom: 1rem;
+  }
+  .logo {
+    width: 190px;
+  }
+  .title {
+    font-size: 3.375rem;
+  }
+  .grid-container-row-1 {
+    grid-template-rows: 240px;
+  }
+  .grid-container-row-2 {
+    grid-template-rows: 200px;
+  }
+  .card.left {
+    margin-right: .75rem;
+  }
+  .card.right {
+    margin-left: .75rem;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  body {
+    margin: 30px 30px 10px 30px;
+  }
+  .logo {
+    width: 170px;
+  }
+  .title {
+    font-size: 2.75rem;
+  }
+  .grid-container-row-1 {
+    grid-template-rows: 220px;
+  }
+  .grid-container-row-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 505px;
+  }
+  .card.left {
+    margin-right: 0;
+  }
+  .card.right {
+    margin-left: 0;
+  }
+  .card-title {
+    margin-top: .875rem;
+    margin-bottom: -.5rem;
+    font-size: 22px !important;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .logo {
+    width: 130px;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .grid-container-row-1 {
+    grid-template-rows: 180px;
+  }
+  .grid-container-row-2 {
+    grid-template-rows: 470px;
+  }
+}
+
+@media only screen and (max-width: 509px) {
+  body {
+    margin: 24px 24px 8px 24px;
+  }
+  .logo {
+    width: 140px;
+  }
+  .grid-container-row-2 {
+    grid-template-rows: 420px;
+  }
+  .card-text {
+    font-size: 14.5px;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .logo {
+    width: 120px;
+  }
+  .title {
+    font-size: 2.125rem;
+  }
+  .grid-container-row-1 {
+    grid-template-rows: 160px;
+  }
+  .grid-container-row-2 {
+    grid-template-rows: 370px;
+  }
+  .card-title {
+    font-size: 20px !important;
+    margin-top: .625rem;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .title {
+    font-size: 1.9375rem;
+  }
+  .card-title {
+    font-size: 18px !important;
+    margin-top: .625rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .logo {
+    width: 100px;
+  }
+  .title {
+    font-size: 1.75rem;
+  }
+  .grid-container-row-1 {
+    grid-template-rows: 140px;
+  }
+  .grid-container-row-2 {
+    grid-template-rows: 340px;
+  }
+  .card-title {
+    font-size: 17px !important;
+    margin-top: .625rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .grid-container-row-1 {
+    grid-template-rows: 120px;
+  }
+}

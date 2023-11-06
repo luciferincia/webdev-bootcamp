@@ -61,3 +61,16 @@ h2 {
 /* .fifth-card {
     flex: 3;
 } */
+
+/* --------------------------- */
+.paragraph {
+    color: #4f759e;
+    color: #506984;
+    color: rgba(69, 87, 106, 0.7);
+    margin-bottom: 0;
+    /* margin-top: 0.5rem; */
+}
+.external-link {
+    font-size: 75%;
+    margin-left: 2px;
+}
