@@ -201,6 +201,9 @@ footer p {
 }
 
 @media only screen and (max-width: 640px) {
+  .body-container {
+    padding: 2rem 2rem 1.5rem 2rem;
+  }
   .logo {
     width: 150px;
   }
@@ -213,6 +216,9 @@ footer p {
   .card-text, footer p {
     font-size: 14.5px;
   }
+  footer {
+    padding: 2rem 0 0;
+  }
 }
 
 @media only screen and (max-width: 543px) {
@@ -221,13 +227,66 @@ footer p {
   }
   .body-container {
     padding: 2.5rem 2rem 1.5rem;
+    padding: 2rem 1.625rem 1.5rem;
   }
   .template-title-wrapper-container {
     margin-bottom: 1rem;
   }
-  /* .template-subject {
-    font-size: 14.5px;
-    margin-left: 9px;
-    padding-left: 12px;
+  .logo {
+    width: 140px;
+  }
+  .hero-text {
+    padding: 2rem 0;
+  }
+  h1 {
+    font-size: 2.125rem;
+  }
+  .card-title {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .logo {
+    width: 110px;
+  }
+  .hero-text {
+    padding: 1.5rem 0 1rem;
+  }
+  h1 {
+    font-size: 1.625rem;
+  }
+  /* .card-title {
+    font-size: 1.25rem;
   } */
+
+  .lucicom {
+    width: 45px;
+  }
+  .template-title-wrapper-container {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .template-title-wrapper {
+    /* border-bottom: 1px dotted #7facaa; */
+    /* border-bottom: 0; */
+    padding-bottom: 0.875rem;
+  }
+  .template-title {
+    font-size: 21px;
+  }
+  .template-subject {
+    font-size: 14px;
+    margin-left: 8px;
+    padding-left: 11px;
+
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+    padding-top: 4px;
+
+    /* border-top: 1px dotted #7facaa; */
+    /* margin-top: 5px; */
+  }
 }
